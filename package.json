@@ -4,13 +4,16 @@
   "description": "A comprehensive member journey tracking and communication management system",
   "main": "index.html",
   "scripts": {
-    "start": "live-server",
+    "start": "live-server --port=3000 --open=index.html",
+    "dev": "live-server --port=3000 --open=index.html",
     "build": "echo 'No build process needed for static HTML'",
-    "test": "echo 'No tests specified'"
+    "test": "echo 'No tests specified'",
+    "serve": "python -m http.server 8000",
+    "open": "start index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/elyx-health-dashboard.git"
+    "url": "git+https://github.com/IP-address65/elyx-health-dashboard.git"
   },
   "keywords": [
     "healthcare",
@@ -22,9 +25,9 @@
   "author": "Your Name",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yourusername/elyx-health-dashboard/issues"
+    "url": "https://github.com/IP-address65/elyx-health-dashboard/issues"
   },
-  "homepage": "https://github.com/yourusername/elyx-health-dashboard#readme",
+  "homepage": "https://github.com/IP-address65/elyx-health-dashboard#readme",
   "dependencies": {},
   "devDependencies": {
     "live-server": "^1.2.2"
