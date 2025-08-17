@@ -1,0 +1,32 @@
+﻿{
+  "name": "elyx-health-dashboard",
+  "version": "1.0.0",
+  "description": "A comprehensive member journey tracking and communication management system",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "echo 'No build process needed for static HTML'",
+    "test": "echo 'No tests specified'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/elyx-health-dashboard.git"
+  },
+  "keywords": [
+    "healthcare",
+    "dashboard",
+    "patient-tracking",
+    "medical-records",
+    "health-analytics"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/elyx-health-dashboard/issues"
+  },
+  "homepage": "https://github.com/yourusername/elyx-health-dashboard#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

@@ -1,0 +1,14 @@
+﻿/* Additional Styles for Elyx Health Dashboard */
+/* This file can be used for additional custom styles */
+
+/* Custom animations */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Utility classes */
+.pulse {
+  animation: pulse 2s infinite;
+}
